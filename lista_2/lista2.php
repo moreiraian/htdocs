@@ -83,8 +83,36 @@
                 echo "Múltiplos";
                 else
                 echo "Não são múltiplos" ;};
-                
                 ?>
+                
+         </div>
+                <!-- 4 -->
+                <div class="container ">
+                    <fieldset>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="id_nome" > Valor </label>
+                                <input type="number" placeholder = "Questão 4" class="form-control" 
+                                required id="id_nome" name="valor4">
+                            </div>
+                            <button type="submit" class="btn btn-dark">Enviar</button>
+                        </form>
+                    </fieldset>
+                </div>
+                <br> 
+                <div class="container">
+                <?php 
+        
+                $valor04 =isset($_POST['valor4']) ? $_POST ['valor4'] : 0;
+                if ($valor04 < 0){
+                echo "Negativo";
+                if ($valor04 > 0)
+                echo "Positivo";
+                else
+                echo "Zero";
+            };
+                ?>
+                
          </div>
     </body>
     </html>

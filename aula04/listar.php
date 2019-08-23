@@ -36,6 +36,9 @@
                 "imagem"=> "#"
                 ),
                 );
+
+                # insere o elemento em uma posição do array
+                array_push($lista,$array)
               ?>
             <tr> 
             <!-- Estrutura de repetição -->
