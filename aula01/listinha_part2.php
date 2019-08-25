@@ -39,7 +39,7 @@
             echo "<br><hr><br>";
             echo "#11<br>" .($valor01-1);
             echo "<br>" .($valor01+1);
-            echo "<br><hr><br>";
+            echo "<br><hr><br>"; 
             ?>
             </div>
         </div>  
