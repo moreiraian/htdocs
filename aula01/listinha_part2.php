@@ -41,6 +41,60 @@
             echo "<br>" .($valor01+1);
             echo "<br><hr><br>"; 
             ?>
+            <?php
+
+                $valorR = 420;
+                $valorD = 4.2;
+                $conv = $real / $dolar;
+
+                echo "#12 <br>";
+                echo "Cotação do dolar: $valorD<br>";
+                echo "R$ 420,00 em dolar são: US$$conv <hr>";
+
+                $valor = 100;
+                $reaj = $valor*0.10;
+
+                echo "#13 <br>";
+
+                echo "O valor é $valor <br>"; 
+                echo "O valor com reajuste fica: $reaj <hr>";
+
+
+                $salario = 1000;
+                $reajuste = 0.5;
+
+                $salarioReajuste = $salario + ($salario * $reajuste);
+
+                echo "#14 <br>";
+
+                echo "O salário é: $salario<br>";
+                echo "O reajuste é: $reajuste<br>";
+                echo "O Salário com o reajuste é: $salarioReajuste <hr>";
+
+                
+               ?>
+                               
+
+                   <div class="container">
+                    <fieldset>
+                        <legend> Calculo de valores </legend>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label> Informe salario </label>
+                                <input type="number" step="1" name="salario" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label> Informe o segundo valor </label>
+                                <input type="number" step="1"   name="valor02" class="form-control">
+                            </div>
+                            <button type="submit" class="btn btn-dark"> Calcular! </button>
+                        </form>
+                    </fieldset>
+                </div>
+
+            
+ 
             </div>
         </div>  
         
