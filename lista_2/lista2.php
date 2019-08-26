@@ -113,7 +113,7 @@
                 }
                     
 
-               ?>
+                 ?>
                 <!-- 5 -->
                 <div class="container ">
                     <fieldset>
@@ -140,10 +140,8 @@
                     echo "Não se encontra!";
                 };
                  
-                
-                
-
-               ?>
+            
+                 ?>
                 <!-- 6 -->
                 <div class="container ">
                     <fieldset>
