@@ -45,7 +45,7 @@
 
                 $valorR = 420;
                 $valorD = 4.2;
-                $conv = $real / $dolar;
+                $conv = $valorR / $valorD;
 
                 echo "#12 <br>";
                 echo "Cotação do dolar: $valorD<br>";
