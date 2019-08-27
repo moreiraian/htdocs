@@ -1,21 +1,6 @@
-<head>
+<!DOCTYPE html>
+<html lang="en">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Pizzaria Novo Mundo</title>
-
-  <!-- Custom fonts for this theme -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- Theme CSS -->
-  <link href="css/freelancer.min.css" rel="stylesheet">
-
-</head>
 <head>
 
   <meta charset="utf-8">
@@ -52,7 +37,7 @@
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#promo">Promoções</a>
           </li>
 		  <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="cardapio.php">Cardápio</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="cardapio.html">Cardápio</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Quem Somos</a>
@@ -62,7 +47,7 @@
           </li>  
         
             <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="login.php">Login</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="login.html">Login</a>
           </li>
         </ul>
       </div>
@@ -119,5 +104,39 @@
   </a>
 </div>  
   </header>
+   <!-- About Section -->
+   <section class="page-section bg-success text-white mb-0" id="about">
+    <div class="container">
 
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-white">Quem Somos</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- About Section Content -->
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+          <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+        </div>
+      </div>
+
+      <!-- About Section Button -->
+      <div class="text-center mt-4">
+        <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
+          <i class="fas fa-download mr-2"></i>
+            Nosso Cardápio        </a>
+      </div>
+
+    </div>
+  </section>
   
