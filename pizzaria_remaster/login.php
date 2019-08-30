@@ -9,14 +9,14 @@
             <div class="control-group">
               <div class="form-group text-dark floating-label-form-group controls mb-0 pb-2">
                 <label class="text-dark">E-mail</label>
-                <input class="form-control" id="email" type="email" placeholder="E-mail" required="required" data-validation-required-message="Por favor insira seu e-mail.">
+                <input class="form-control" id="email" type="email" name="senha" placeholder="E-mail" required="required" data-validation-required-message="Por favor insira seu e-mail.">
                 <p class="help-block text-dark"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label class="text-dark">Senha</label>
-                <input class="form-control" id="phone" type="password" placeholder="Senha" required="required" data-validation-required-message="Insira a Senha">
+                <input class="form-control" id="phone" name="senha" type="password" placeholder="Senha" required="required" data-validation-required-message="Insira a Senha">
                 <p class="help-block text-dark"></p>
               </div>
             </div>
