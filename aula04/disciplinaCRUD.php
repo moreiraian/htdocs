@@ -5,12 +5,12 @@
 
 #função responsável por inserir os dados do banco
 
-function CreateCurso($nome){
+function CreateDisciplina($nome){
     //recebe o retorno da função com a conexão aberta
     $link = abreConex ();
 
     //variavel responsável por definir a query SQL a ser disparada no banco
-    $query = "insert into tb_curso(nome) values ('{$nome}')";
+    $query = "insert into tb_disciplina(nome) values ('{$nome}')";
 
     try{
         if (mysqli_query($link, $query));
@@ -23,21 +23,21 @@ function CreateCurso($nome){
     }
 }
     #funçao por listar todos os cursos
-    function getCursos(){
+    function getDisciplina(){
         $link = abreConex();
-        $query = "select * from tb_curso";
+        $query = "select * from tb_disciplina";
 
         try{
         /** @$rs (ResultSet) - variavel responsável por guardar  o resultado vindo do banco de dados8 */ 
            $rs = mysqli_query($link, $query); //* o que vier de resultado será entregue a variavel $rs */
-           $listaCursos = Array (); //* conter todos os cursos que estão registrados na tb_vurso
+           $listaDisciplina = Array (); //* conter todos os cursos que estão registrados na tb_vurso
             
            //* caso tenha resultado $row recebe registro de curso($row), caso não tenha mais registros receberá null
            while($row = mysqli_fetch_assoc($rs)){    
-                array_push($listaCursos, $row);
+                array_push($listaDisciplina, $row);
             }
 
-            return $listaCursos;
+            return $listaDisciplina;
         } catch (Throwble $th){
             throw new \Exception("Erro ao gravar no banco", 1);
             return Array();
@@ -45,13 +45,13 @@ function CreateCurso($nome){
             mysqli_close($link);
         }
     }
-    #função responsável por excluir o curso
-    function DeleteCurso($id){
+    #função responsável por excluir a Disciplina
+    function DeleteDisciplina($id){
         //recebe o retorno da função com a conexão aberta
         $link = abreConex ();
     
         //variavel responsável por definir a query SQL a ser disparada no banco
-        $query = "delete from tb_curso where idcurso= {$id}";
+        $query = "delete from tb_disciplina where id_disciplina= {$id}";
     
     
         try{
@@ -71,7 +71,7 @@ function CreateCurso($nome){
         $link = abreConex ();
     
         //variavel responsável por definir a query SQL a ser disparada no banco
-        $query = "update tb_curso set nome = '{$nome}' where idcurso = {$idcurso}";
+        $query = "update tb_disciplina set nome = '{$nome}' where id_disciplina = {$id_disciplina}";
     
     
         try{

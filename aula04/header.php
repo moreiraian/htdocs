@@ -27,9 +27,12 @@
           Gestão de Produtos
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="cadastrar_curso.php">Cadastro</a>
-          <a class="dropdown-item" href="listar_curso.php">Listagem</a>
-          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="cadastrar_curso.php">Cadastrar Curso</a>
+          <a class="dropdown-item" href="listar_curso.php">Listagem de Cursos</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="cadastrar_disciplina.php">Cadastrar Disciplina</a>
+          <a class="dropdown-item" href="listar_disciplina.php">Listagem de Disciplinas</a>
+            <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="localizar.php">Localizar</a>
         </div>
       </li>
