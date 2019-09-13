@@ -2,7 +2,7 @@
     require "./cursoCRUD.php";
 
     function listaCursos(){
-        return (getCursos());
+        return getCursos();
 
     }
 
