@@ -66,7 +66,7 @@ function CreateDisciplina($nome){
     }
     
     #função responsável por alterar o curso
-    function updateCurso($idcurso, $nome){
+    function updateDisciplina($id_disciplina, $nome){
         //recebe o retorno da função com a conexão aberta
         $link = abreConex ();
     

@@ -15,7 +15,7 @@
                 <!-- Estruturas de repetição -->
                 <?php foreach (listaDisciplina() as $disciplina): ?>
                 <tr>
-                    <td><?= $disciplina'id_disciplina'] ?></td>
+                    <td><?= $disciplina ['id_disciplina'] ?></td>
                     <td><?= $disciplina['nome'] ?></td>
                     <td><span data-toggle="modal" data-target="#disciplinaModal" class="" data-disciplina_id="<?= $disciplina['id_disciplina'] ?>" data-disciplina_name="<?= $disciplina['nome'] ?>" data-product-quantity="1"><i class="fas fa-edit text-primary"></i></span></td>
                     <td><a href = "delete_disciplina.php?id= <?= $disciplina ['id_disciplina']?>"onclick="return confirm('deseja prosseguir?')"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></td>
