@@ -22,3 +22,4 @@
      }else {
         header('Location: cadastrar_curso.php');
     };
+    '''
